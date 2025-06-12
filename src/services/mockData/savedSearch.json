@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1",
+    "name": "Downtown Condos",
+    "filters": {
+      "location": "downtown",
+      "minPrice": 500000,
+      "maxPrice": 1200000,
+      "minBeds": 1,
+      "propertyTypes": ["Condo", "Apartment"],
+      "sortBy": "newest"
+    },
+    "createdAt": "2024-01-10T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Family Houses",
+    "filters": {
+      "location": "suburbs",
+      "minPrice": 600000,
+      "maxPrice": 1500000,
+      "minBeds": 3,
+      "propertyTypes": ["House", "Townhouse"],
+      "sortBy": "price-low"
+    },
+    "createdAt": "2024-01-18T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Luxury Properties",
+    "filters": {
+      "location": "",
+      "minPrice": 2000000,
+      "maxPrice": 5000000,
+      "minBeds": 4,
+      "propertyTypes": ["Villa", "House"],
+      "sortBy": "price-high"
+    },
+    "createdAt": "2024-02-01T00:00:00.000Z"
+  }
+]

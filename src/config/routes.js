@@ -1,8 +1,8 @@
-import Browse from '../pages/Browse'
-import PropertyDetail from '../pages/PropertyDetail'
-import MapView from '../pages/MapView'
-import SavedProperties from '../pages/SavedProperties'
-import SearchAlerts from '../pages/SearchAlerts'
+import BrowsePage from '@/components/pages/BrowsePage'
+import PropertyDetailPage from '@/components/pages/PropertyDetailPage'
+import MapViewPage from '@/components/pages/MapViewPage'
+import SavedPropertiesPage from '@/components/pages/SavedPropertiesPage'
+import SearchAlertsPage from '@/components/pages/SearchAlertsPage'
 
 export const routes = {
   browse: {
@@ -10,35 +10,35 @@ export const routes = {
     label: 'Browse',
     path: '/browse',
     icon: 'Home',
-    component: Browse
+component: BrowsePage
   },
   mapView: {
     id: 'mapView',
     label: 'Map View',
     path: '/map',
     icon: 'Map',
-    component: MapView
+component: MapViewPage
   },
   savedProperties: {
     id: 'savedProperties',
     label: 'Saved Properties',
     path: '/saved',
     icon: 'Heart',
-    component: SavedProperties
+component: SavedPropertiesPage
   },
   searchAlerts: {
     id: 'searchAlerts',
     label: 'Search Alerts',
     path: '/alerts',
     icon: 'Bell',
-    component: SearchAlerts
+component: SearchAlertsPage
   },
   propertyDetail: {
     id: 'propertyDetail',
     label: 'Property Detail',
     path: '/property/:id',
     icon: 'Building',
-    component: PropertyDetail
+component: PropertyDetailPage
   }
 }
 
